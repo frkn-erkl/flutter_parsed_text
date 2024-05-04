@@ -11,4 +11,4 @@ const urlPattern =
 const phonePattern =
     r"(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})";
 
-const photoPattern = r"æ.*\s$";
+const photoPattern = r'æ.*æ$';
