@@ -102,6 +102,8 @@ class ParsedText extends StatelessWidget {
     parse.forEach((e) {
       if (e.type == ParsedType.EMAIL) {
         _mapping[emailPattern] = e;
+      } else if (e.type == ParsedType.PHOTO) {
+        _mapping[photoPattern] = e;
       } else if (e.type == ParsedType.PHONE) {
         _mapping[phonePattern] = e;
       } else if (e.type == ParsedType.URL) {
